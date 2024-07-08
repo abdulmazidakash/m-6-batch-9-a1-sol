@@ -188,6 +188,7 @@ body{
     /* border: 2px solid; */
     margin: 0 auto;
     position: relative;
+    margin-bottom: 120px;
 }
 .holiday-text-container{
     display: flex;
@@ -249,4 +250,54 @@ body{
     bottom: 30%;
     left: 55%;
     z-index: 1;
+}
+/* portfolio-section-container starts styles */
+.portfolio-section-container{
+    width: 1320px;
+    height: 1163px;
+    /* margin-top: 120px; */
+    /* border: 2px solid; */
+    margin: 0 auto;
+}
+.portfolio-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    margin-bottom: 50px;
+
+}
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.portfolio-text-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+    ;
+    
+}
+.item{
+    width: 424px;
+    height: 450px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+
 }
