@@ -118,6 +118,8 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     margin-top: 80px;
+
+    margin-bottom: 100px;
     
 }
 .leftside-content{
@@ -178,4 +180,73 @@ body{
 .rightside-content img{
     width: 349.16px;
     height: 464.65px;
+}
+/* holiday-section-container starts here  */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text-container h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+#holidays{
+    color: red;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+
+}
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    /* top: 10%; */
+
+}
+.girl-container{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 29%;
+    top: 11%;
+  
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
 }
