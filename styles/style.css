@@ -13,7 +13,7 @@ body{
 .banner-container {
     max-width: 1320px ;
     border-radius: 16px ;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     min-height: 600px;
     margin-top: 20px;
@@ -35,6 +35,7 @@ body{
 }
 .banner-content p, h1{
     color: white;
+    text-align: center;
 }
 .banner-content p{
     font-size: 32px;
@@ -217,7 +218,9 @@ body{
     font-size: 20px;
     font-weight: 500;
 
-    margin-top: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
 }
 #holidays{
     color: red;
