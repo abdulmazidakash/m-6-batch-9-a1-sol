@@ -12,11 +12,13 @@ body{
 /* Shared styles  */
 .banner-container {
     max-width: 1320px ;
-    border-radius: 16px ;
-    /* border: 2px solid red; */
-    margin: 0 auto;
     min-height: 600px;
+    /* border: 2px solid red; */
+    
+    border-radius: 16px ;
+    margin: 0 auto;
     margin-top: 20px;
+
     background-image: url('../images/Banner\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -190,6 +192,7 @@ body{
     margin: 0 auto;
     position: relative;
     margin-bottom: 120px;
+    margin-top: 80px;
 }
 .holiday-text-container{
     display: flex;
@@ -200,6 +203,7 @@ body{
     width: 1068px;
     height: 260px;
     margin: 0 auto;
+
 }
 .holiday-text-container h5{
     color: rgb(7, 2, 17);
@@ -477,4 +481,127 @@ body{
 
     font-weight: 700;
     font-size: 20px;
+}
+
+/* coming-soon-section-container styles starts here  */
+.coming-soon-section-container{
+    /* border: 2px solid; */
+    width: 1320px;
+    height: 463px;
+    /* margin-bottom: 2000px; */
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.coming-soon-section-content{
+    width: 100%;
+    height: 463px;
+    margin: 0 auto;
+    /* border: 2px solid; */
+ 
+    display: flex;
+    align-items: center;
+   
+}
+.coming-soon-text-content{
+    width: 32%;
+    height: 463px;
+    margin-top: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    /* border: 2px solid; */
+    /* margin-top: 30px; */
+    /* display: flex; */
+    /* margin: 0 auto; */
+  
+    
+}
+.coming-soon-text-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-bottom: 5px;
+    
+}
+.coming-soon-text-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+    margin-bottom: 5px;
+    
+}
+.coming-soon-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.coming-soon-image{
+
+    margin-top: 150px;
+    margin: 0 auto;
+    margin-left: 52px;
+
+    width: 364.84px;
+    height: 364.84px;
+
+    border: 6px solid red;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.coming-soon-image img{
+    width: 90%;
+    height: 90%;
+    margin-top: 17px;
+    margin-left: 17px;
+
+    border: 4px dashed #67696327;
+}
+.coming-soon-text-2024{
+    width: 22%;
+    height: 463px;
+    margin-top: 280px;
+    
+    /* margin-bottom: 20px; */
+    /* display: flex; */
+    /* border: 2px solid; */
+
+}
+.coming-soon-text-2024 h6{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+}
+.coming-soon-text-2024 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+
+
+}
+.coming-new-year-image{
+    width: 102.4px;
+    height: 132.79px;
+    border: 2px dashed #67696327;
+}
+.coming-new-year-image img{
+    width: 50%;
+    height: 50%;
 }
