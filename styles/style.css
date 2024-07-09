@@ -113,7 +113,7 @@ body{
     display: flex;
     border-radius: 16px;
     
-    background-image: url('/images/Vectorrr.png');
+    background-image: url('../images/Vectorrr.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -504,8 +504,7 @@ body{
     /* border: 2px solid; */
  
     display: flex;
-    align-items: center;
-   
+    align-items: center;  
 }
 .coming-soon-text-content{
     width: 32%;
@@ -517,9 +516,7 @@ body{
     /* border: 2px solid; */
     /* margin-top: 30px; */
     /* display: flex; */
-    /* margin: 0 auto; */
-  
-    
+    /* margin: 0 auto; */   
 }
 .coming-soon-text-content h4{
     color: rgb(255, 0, 0);
@@ -527,8 +524,7 @@ body{
     font-size: 24px;
     font-weight: 500;
 
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;   
 }
 .coming-soon-text-content h3{
     color: rgb(7, 2, 17);
@@ -536,18 +532,15 @@ body{
     font-size: 48px;
     font-weight: 900;
 
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;   
 }
 .coming-soon-text-content p{
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 .coming-soon-image{
-
     margin-top: 150px;
     margin: 0 auto;
     margin-left: 52px;
@@ -557,7 +550,6 @@ body{
 
     border: 6px solid red;
     border-radius: 50% 50% 50% 50%;
-
 }
 .coming-soon-image img{
     width: 90%;
